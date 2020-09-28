@@ -1,0 +1,3 @@
+mutation DeleteTodoItem($id: Uuid!) {
+    deleteTodoItem(id: $id)
+}

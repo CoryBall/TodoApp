@@ -1,0 +1,10 @@
+query allItems{
+    todoItems{
+        id
+        title
+        createdOn
+        modifiedOn
+        isCompleted
+        completedOn
+    }
+}

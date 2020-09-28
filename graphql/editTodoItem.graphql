@@ -1,0 +1,10 @@
+mutation EditTodoItem($editedItem: TodoItemInput!) {
+    editTodoItem(editedItem: $editedItem) {
+        id
+        title
+        createdOn
+        modifiedOn
+        isCompleted
+        completedOn
+    }
+}

@@ -1,0 +1,10 @@
+mutation CreateTodoItem($title : String!) {
+    addTodoItem(title: $title) {
+        id
+        title
+        createdOn
+        modifiedOn
+        isCompleted
+        completedOn
+    }
+}
